@@ -1,7 +1,6 @@
 import React from 'react';
 
 const ResultAmount = (props) => {
-    props.onResultAmountChange()
 
     return (
         <div>
@@ -9,7 +8,7 @@ const ResultAmount = (props) => {
                 <label>Converted Amount</label>
                 <input
                     type='number'
-                    value={props.resultAmount}
+                    value={props.amount}
                     readOnly={true}
                 />
             </form>
